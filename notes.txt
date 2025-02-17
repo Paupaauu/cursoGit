@@ -71,6 +71,9 @@ Uso: git merge nueva-rama
 Muestra el historial de commits del repositorio.
 Uso: git log
 
+: git log --online
+Muestra el contenido más resumido con una linea por log
+
 
 : git diff
 
