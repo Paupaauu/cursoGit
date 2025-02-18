@@ -1,0 +1,111 @@
+Resumen comandos Git
+
+: git init
+
+Crea un nuevo repositorio Git vacío en el directorio actual.
+Uso: git init
+
+
+: git clone <url>
+
+Clona un repositorio remoto en tu máquina local.
+Uso: git clone https://github.com/usuario/repositorio.git
+
+
+: git add <archivo>
+
+Agrega archivos al área de preparación (staging area), indicándole a Git que los incluya en el siguiente commit.
+Uso: git add archivo.txt
+
+
+: git commit -m "<mensaje>"
+
+Registra los cambios en el repositorio con un mensaje descriptivo.
+Uso: git commit -m "Añadir nueva funcionalidad"
+
+
+: git status
+
+Muestra el estado de los archivos en el repositorio, indicando qué archivos están modificados, cuáles están preparados para el commit, etc.
+Uso: git status
+
+
+: git push <remoto> <rama>
+
+Envía los cambios de la rama local al repositorio remoto.
+Uso: git push origin main
+
+
+: git pull <remoto> <rama>
+
+Obtiene los cambios del repositorio remoto y los fusiona con la rama local.
+Uso: git pull origin main
+
+
+: git branch
+
+Muestra las ramas locales del repositorio.
+Uso: git branch
+
+
+: git branch <nombre-rama>
+
+Crea una nueva rama en el repositorio.
+Uso: git branch nueva-rama
+
+
+: git checkout <rama>
+
+Cambia a la rama especificada.
+Uso: git checkout nueva-rama
+
+
+: git merge <rama>
+
+Fusiona los cambios de la rama especificada con la rama actual.
+Uso: git merge nueva-rama
+
+
+: git log
+
+Muestra el historial de commits del repositorio.
+Uso: git log
+
+: git log --online
+Muestra el contenido más resumido con una linea por log
+
+
+: git diff
+
+Muestra las diferencias entre los archivos modificados y los no comprometidos.
+Uso: git diff
+
+
+: git reset <archivo>
+
+Deshace los cambios de un archivo, eliminándolo del área de preparación.
+Uso: git reset archivo.txt
+
+
+: git rm <archivo>
+
+Elimina un archivo del repositorio y del sistema de archivos.
+Uso: git rm archivo.txt
+
+
+: git fetch
+
+Descarga los cambios desde el repositorio remoto sin fusionarlos con la rama local.
+Uso: git fetch
+
+
+: git remote -v
+
+Muestra las URL de los repositorios remotos configurados.
+Uso: git remote -v
+
+
+: git tag <nombre>
+
+Crea una etiqueta (tag) para marcar un commit específico, generalmente para versiones importantes.
+Uso: git tag v1.0
